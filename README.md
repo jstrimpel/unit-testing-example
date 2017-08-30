@@ -14,7 +14,8 @@ This example leverages the following technologies:
 
 
 ## Best Practices
-This article outlines some unit testing best practices. This will help you write good tests! The basic format should be as follows:
+This [article](https://github.com/mawrkus/js-unit-testing-guide) outlines some unit testing best practices. 
+This will help you write good tests! The basic format should be as follows:
 
 * Set up
 * Action

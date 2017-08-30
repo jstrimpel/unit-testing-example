@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index Component should render 1`] = `
+<p
+  onClick={undefined}
+>
+  I am an example.
+</p>
+`;

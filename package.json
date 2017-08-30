@@ -1,0 +1,40 @@
+{
+  "name": "jstrimpel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "jest",
+    "test:unit:clean": "jest -u",
+    "cover:unit": "jest --coverage",
+    "lint": "eslint --config .eslintrc.js src",
+    "verify": "npm run lint && npm run cover:unit"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015",
+      "es2017",
+      "react",
+      "stage-3"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "chai": "^4.1.1",
+    "enzyme": "^2.9.1",
+    "eslint": "^4.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "jest": "^20.0.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
+    "sinon": "^3.2.1"
+  }
+}

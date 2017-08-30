@@ -25,7 +25,7 @@ The following commands are available in the `package.json`. Below is a list of t
 
 * `npm run verify`: Used for verifying a module before releasing. If it fails don't release! Delegates to other scripts.
 * `npm test`: Delegates to `npm run test:unit`
-* `npm run test:unit:clean`: Removes [snapshots]() and runs unit tests.
+* `npm run test:unit:clean`: Removes [snapshots](https://facebook.github.io/jest/docs/en/snapshot-testing.html#content) and runs unit tests.
 * `npm run test:unit` runs unit tests
 * `npm run lint`: Performs static analysis and notifies you of issues
 * `npm run cover:unit`: Generates code coverage
